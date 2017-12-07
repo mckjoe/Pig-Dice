@@ -5,8 +5,49 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Pig Dice Game</title>
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <form id="playerOneInput">
+            <div class="form-group">
+              <label for="nameOne">Please enter your name:</label>
+              <input id="nameOne" class="form-control" type="text" placeholder="Please enter your name!">
+            </div>
+
+          </form>
+          <br>
+          <button type="click" id="rollOne">Roll dice</button>
+          <div class="roll-player1">
+
+          </div>
+          <br>
+          <div class="total-player1">
+          </div>
+          <br>
+          <button type="click" id="holdOne">Hold</button>
+        </div>
+        <div class="col-xs-6">
+          <form id="playerTwoInput">
+            <div class="form-group">
+              <label for="nameTwo">Please enter your name:</label>
+              <input id="nameTwo" class="form-control" type="text" placeholder="Please enter your name!">
+            </div>
+          </form>
+          <br>
+          <button type="click" id="rollTwo">Roll dice</button>
+          <br>
+          <div class="roll-player2">
+          </div>
+          <br>
+          <div class="total-player2">
+          </div>
+          <br>
+          <button type="click" id="holdTwo">Hold</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
